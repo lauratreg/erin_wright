@@ -2,17 +2,20 @@
 layout: default
 title: Gallery
 images:
-- image_path: /images/photo1.jpg
-  title: Photo1
-- image_path: /images/photo2.jpg
-  title: Photo2
-- image_path: /images/photo3.jpg
-  title: Photo3
-- image_path: /images/photo4.jpg
-  title: Photo4
-
-
-
+  - image_path: /images/photo1.jpg
+    title: Photo1
+  - image_path: /images/photo2.jpg
+    title: Photo2
+  - image_path: /images/photo3.jpg
+    title: Photo3
+  - image_path: /images/photo4.jpg
+    title: Photo4
+  - image_path: /images/photo9.jpg
+    title:
+  - image_path:
+    title:
+  - image_path:
+    title:
 ---
 
 <div class="backgroundimg">
@@ -23,7 +26,7 @@ images:
 
 <div class="grid">
   {% for image in page.images %}
-    <div class="col-4_sm-6_xs-12"><img src="{{ image.image_path }}" alt="{{ image.title}}"/></div>
+    <div class="col-4_sm-6_xs-12"><img src="{{ image.image_path }}" alt="{{ image.title}}" /></div>
   {% endfor %}
 </div>
 
