@@ -233,11 +233,12 @@ img {
 }
 
 /*#columns {
-  /*padding: 5vh;*/
-  /*color: white;
+  padding: 5vh;
+  color: white;}*/
 
 .container {
-  padding-top: 20%;
+  padding-top: 25%;
+  padding-right: 35%;
 }
 
 /* Buttons */
@@ -325,7 +326,11 @@ form [class*=col-] {
 /* ------------ BACKGROUND IMAGES --------------- */
 
 .featured-img {
-  background-image: url('/images/demo.jpg');
+  background-image: url('/images/photo8.jpg');
+  background-size: cover;
+  padding: 40vh 25vw;
+  margin: 2em 6em;
+
 }
 #landing {
   background-image: url("../images/photo11.jpg");
