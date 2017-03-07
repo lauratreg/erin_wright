@@ -86,7 +86,8 @@ li  { font-size: 1.1rem; }
 
 /* Padding & Margin */
 
-header, footer { padding: 2vh 5%;}
+header, footer { padding: 2vh 5%;
+background-color: rgba(240,229,217,0.3);}
 
 section         { padding: 2vh 5%; }
 
@@ -173,7 +174,6 @@ footer nav .fa,
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   background-size: auto;
 }
-
 
 
 /* GALLERY STYLES*/
@@ -315,8 +315,11 @@ form [class*=col-] {
 .featured-img {
   background-image: url('/images/photo8.jpg');
   background-size: cover;
+  background-position: center;
   padding: 40vh 25vw;
   margin: 2em 6em;
+  max-width: 100%;
+  height: auto;
 
 }
 #landing {
