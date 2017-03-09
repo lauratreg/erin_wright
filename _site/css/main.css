@@ -117,7 +117,7 @@ section         { padding: 2vh 5%; }
 }
 hr {
   border: none;
-  border-top: 3px dotted #F0E5D9;;
+  border-top: 3px dotted #F0E5D9;
   margin: 3vh 0;
 }
 .previous, .next {
@@ -134,7 +134,7 @@ nav a {
     color: inherit;
 }
 nav a:hover {
-  color: #F0E5D9; /* featured color */
+  color: #e9d8c7; /* featured color */
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
@@ -218,11 +218,12 @@ img {
   min-width: 25vw;
 }
 
-
-/*#columns {
-  padding: 5vh;
-  color: white;}*/
-
+.rightpull {
+  text-align:right;
+}
+.color {
+  color: #F0E5D9;
+}
 .container {
   padding-top: 25%;
   padding-right: 35%;
