@@ -54,22 +54,22 @@ img {
 
 /* Typography */
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: rgb(60,60,65);
 }
 
-h1 {font-family: 'Great Vibes', cursive;
+h1 {font-family: 'Dancing Script', cursive;
 letter-spacing: 2px;}
 
 }
  h2, h3, h4, h5, h6 {
   margin-bottom: 1.1rem;
   letter-spacing: 3px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 p {
   margin-bottom: 1rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 
@@ -86,8 +86,11 @@ li  { font-size: 1.1rem; }
 
 /* Padding & Margin */
 
-header, footer { padding: 2vh 5%;
+header { padding: 2vh 5%;
 background-color: rgba(240,229,217,0.3);}
+
+footer { padding: 2vh 5%;
+background-color: #afacaa;}
 
 section         { padding: 2vh 5%; }
 
@@ -109,10 +112,11 @@ section         { padding: 2vh 5%; }
   height: 60vh;
 }
 .copyright {
-  color: #d3d3d3;
- font-family: 'Open Sans', sans-serif;
+  color: rgba(240,229,217,0.3);
+ font-family: 'Raleway', sans-serif;
  text-align: center;
  font-size: 1.0rem;
+ padding-top: 2vh;
 
 }
 hr {
@@ -132,9 +136,11 @@ nav a {
     text-decoration: none;
     padding: 1em;
     color: inherit;
+    letter-spacing: 2px;
 }
 nav a:hover {
-  color: #e9d8c7; /* featured color */
+  color:
+#e7cebc;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
@@ -154,6 +160,19 @@ footer nav .fa,
   padding: 0 1em 0 0;
 
 }
+
+p a {
+  text-decoration: none;
+  color: black;
+}
+
+p a:hover {
+  color: #e7cebc;
+  text-decoration: none;
+}
+.space {
+  padding-top: 2vh;
+}
 .fa {
   font-size: 1.5rem;
 }
@@ -171,7 +190,6 @@ footer nav .fa,
 .backgroundimg{
   background-color: #ffffff;
   background-image: url("https://www.transparenttextures.com/patterns/redox-02.png");
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   background-size: auto;
 }
 
@@ -255,7 +273,7 @@ padding-top: 3vh;
 }
 .button:hover,
 .button-inverted:hover {
-  background-color: #F0E5D9;
+  background-color: rgba(240,229,217,0.3);
   transition: 0.5s;
 
 }
@@ -291,7 +309,7 @@ textarea {
   border-style: solid;
   border: 1px solid grey;
   padding: 0.8em;
-  font-family: 'Work Sans'; /* Site Font */
+font-family: 'Raleway', sans-serif;
   font-size: 1em;
   display: block;
   width: 100%;
