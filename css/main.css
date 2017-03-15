@@ -126,7 +126,15 @@ blockquote {
  text-align: center;
  font-size: 1.0rem;
  padding-top: 2vh;
+}
 
+.copyright a {
+  text-decoration: none;
+  color: rgba(240,229,217,0.3);
+}
+.copyright a:hover {
+  text-decoration: none;
+  color: rgba(240,229,217,0.3);
 }
 hr {
   border: none;
@@ -161,8 +169,8 @@ nav a:hover {
   align-items: center;
 }
 footer nav a {
-  /*display: block;*/
   padding: 0.2em;
+
 }
 
 footer nav .fa,
