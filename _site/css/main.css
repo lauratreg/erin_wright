@@ -273,12 +273,18 @@ img {
 .buttonpadding {
 padding-top: 3vh;
 }
-.button:hover,
-.button-inverted:hover {
+.button:hover
+{
   background-color: rgba(240,229,217,0.3);
   transition: 0.5s;
   color: black;
 
+}
+
+.button-inverted:hover {
+  background-color: rgba(240,229,217,0.3);
+  transition: 0.5s;
+  color: white;
 }
 
 
