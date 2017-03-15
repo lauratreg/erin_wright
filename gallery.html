@@ -30,15 +30,9 @@ images:
 
 <div class="backgroundimg">
 
-
-
 <section class="editable centered">
 
   <h3>Gallery</h3>
-  <p>
-    Your photoshoot gallery is available on Pixieset <a target="blank" href="https://erinwrightphotography.pixieset.com/">here</a>.
-  </p>
-
 <div class="grid">
   {% for image in page.images %}
     <div class="col-4_sm-6_xs-12"><img src="{{ image.image_path }}" alt="{{ image.title}}" /></div>
