@@ -345,9 +345,8 @@ form [class*=col-] {
 .featured-img {
   background-image: url('/images/photo8.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: 50% 20%;
   padding: 40vh 25vw;
-  margin: 2em 6em;
   max-width: 100%;
   height: auto;
 
@@ -356,6 +355,7 @@ form [class*=col-] {
   background-image: url("../images/photo11.jpg");
   background-size:cover;
   max-width: 100%
+  background-position: 50%;
 }
 
 
@@ -380,6 +380,11 @@ form [class*=col-] {
   .mob-flip div {
       width: 100%; /* This fixes a flexbox bug */
   }
+
+/*Specific Responsiveness*/
+
+
+
 
   /* ------ General Mobile Styles ---------*/
   /*alignment center*/
