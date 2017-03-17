@@ -355,6 +355,7 @@ form [class*=col-] {
 #landing {
   background-image: url("../images/photo11.jpg");
   background-size:cover;
+  max-width: 100%
 }
 
 
