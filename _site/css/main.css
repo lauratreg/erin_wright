@@ -309,7 +309,7 @@ padding-top: 3vh;
 
 /* Lists */
 
-ol, ul  { padding-left: 0; margin-top: 0; }
+ol, ul  { padding-left: 0; margin-top: 0; display:inline-block; text-align: left;}
 li      { margin-bottom: 0.5rem; }
 
 
@@ -360,7 +360,7 @@ form [class*=col-] {
 
 
 /*------- Media Queries ------------------------*/
-@media(max-width:800px) {
+@media(max-width:700px) {
 
   /* --- General Responsive Helpers ----*/
 
@@ -380,12 +380,8 @@ form [class*=col-] {
   .mob-flip div {
       width: 100%; /* This fixes a flexbox bug */
   }
-
-/*Specific Responsiveness*/
-
-
-
-
+  .gallery, .pricing {
+    min-width: 42vw;}
   /* ------ General Mobile Styles ---------*/
   /*alignment center*/
   body,
@@ -400,5 +396,7 @@ form [class*=col-] {
   textarea {
     margin: 0;
   }
+
+
 
 }/* End media query */
