@@ -347,8 +347,7 @@ form [class*=col-] {
   background-position: 50% 20%;
   padding: 40vh 25vw;
   max-width: 90%;
-  height: auto;
-  width: auto;
+  margin: auto;
 
 }
 #landing {
