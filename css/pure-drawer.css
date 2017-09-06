@@ -33,7 +33,7 @@ body {
 }
 
 .mobile-nav a:hover {
-  color: #00A9BF;
+  color: rgb(150,150,155);;
 }
 .mobile-nav .social-icon {
   display: inline-block;
@@ -76,8 +76,8 @@ body {
 }
 
 .pure-toggle:focus ~ .pure-toggle-label {
-  border-color: #00A9BF; /* Teal */
-  color: #00A9BF;
+  border-color: black;
+  color: black;
 }
 
 .pure-toggle-label {
@@ -100,14 +100,14 @@ body {
 }
 
 .pure-toggle-label:hover {
-  border-color: #00A9BF;
-  color: #00A9BF;
+  border-color: black;
+  color: blackF;
 }
 
 .pure-toggle-label:hover .pure-toggle-icon,
 .pure-toggle-label:hover .pure-toggle-icon:before,
 .pure-toggle-label:hover .pure-toggle-icon:after {
-  background-color: #00A9BF;
+  background-color: rgb(150,150,155);;
 }
 
 .pure-toggle-label:active {
@@ -171,8 +171,8 @@ body {
 .pure-toggle[data-toggle='left']:checked ~ .pure-toggle-label[data-toggle-label='left'],
 .pure-toggle[data-toggle='right']:checked ~ .pure-toggle-label[data-toggle-label='right'],
 .pure-toggle[data-toggle='top']:checked ~ .pure-toggle-label[data-toggle-label='top'] {
-  border-color: #00A9BF;
-  color: #00A9BF;
+  border-color: rgb(150,150,155);;
+  color: rgb(150,150,155);;
 }
 
 .pure-toggle[data-toggle='left']:checked ~ .pure-toggle-label[data-toggle-label='left'] .pure-toggle-icon,
