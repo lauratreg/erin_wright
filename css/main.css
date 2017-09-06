@@ -93,7 +93,7 @@ background-color: rgba(240,229,217,0.3);}
 footer { padding: 2vh 5%;
 background-color: #afacaa;}
 
-section         { padding: 2vh 5%; }
+section         { padding: 5vh 5%; }
 
 blockquote {
   border-left: 2px solid rgb(245,245,245);
@@ -346,8 +346,9 @@ form [class*=col-] {
   background-size: cover;
   background-position: 50% 20%;
   padding: 40vh 25vw;
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
+  width: auto;
 
 }
 #landing {
