@@ -345,7 +345,7 @@ form [class*=col-] {
   background-image: url('/images/photo8.jpg');
   background-size: cover;
   background-position: 50% 20%;
-  padding: 40vh 25vw;
+  padding: 40vh;
   max-width: 90%;
   margin: auto;
 
@@ -381,6 +381,10 @@ form [class*=col-] {
   }
   .gallery, .pricing {
     min-width: 42vw;}
+
+    .featured-img{
+      padding: 23vh;
+    }
   /* ------ General Mobile Styles ---------*/
   /*alignment center*/
   body,
